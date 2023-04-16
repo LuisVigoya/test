@@ -1,0 +1,316 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.encabezado{
+    background: #bcbcbc;
+    padding: 20px ;
+}
+
+.caja{
+    position: relative;
+    width: 940px;
+    margin: 0px auto;
+}
+
+.opcionesPosicion{
+    position: absolute;
+    top: 115px;
+    right: 0px;
+}
+
+.opcionesParametros{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.opcionesTexto{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.opcionesTexto:hover{
+    color: white;
+    text-decoration: underline;   
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+.productos li:hover{
+    border-color: green;
+    border-style: dotted;
+}
+
+.productos li:active{
+    border-color: aqua;
+    border-style: dashed;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.productoDescripcion{
+    font-size: 18px;
+}
+
+.productoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.piePagina{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 30px;
+}
+
+.piePagina p{
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    margin: 20px;
+}
+
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario form{
+    margin: 40px 0;
+}
+
+.formulario form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 15px;
+    font-style: italic;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.formulario legend{
+    font-size: 20px;
+    margin: 20px 0 20px;
+    font-weight: bold;
+}
+
+.formulario .comercial{
+     margin: 20px 0;
+     color: brown;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #566573;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: #808b96;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*CSS para la pagina inicial*/
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 1em 0;
+}
+
+.principalContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*.tituloPrincipal::first-letter{
+    font-weight: bold;
+} COn esto lo que hago es que a cada primera letra de en este caso los titulos me las va a colocra en negrita
+
+.tituloPrincipal:before{
+    content: "[";
+} Con esto lo que hago es decirle que me coloque una [ antes del tirulo principal
+
+.tituloPrincipal:after{
+    content: "]";
+} Con esto lo que hago es decirle que me coloque una ] despues del tirulo principal
+
+p:first-line{
+    font-style: italic;
+} Con esto lo que hago es que en este caso a cada primera liena de algun parrarafo le aplico la enfasis o letras inclinadas estilo italico*/
+
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    padding: 1em 0 1em;
+    clear: left;
+}
+
+.principal p{
+    padding: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.principal em strong{
+    color: red;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 1em 0;
+    background: linear-gradient(#fefefe, #888888);
+    
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 1em 0;
+    background: #888888;
+}
+
+.contenidoDiferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.listaDiferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 43.5px;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items:before{
+    content: "★";
+}
+
+/*.items:nth-child(1){
+    font-weight: bold;
+} Es otra forma e aplicar un estilo a la primera posicion de la lista*/
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagenDiferenciales{
+    width: 60%;
+    height: 255px;
+    box-shadow: 10px 10px 30px 15px black ;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 30%;
+    transition: 400ms;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width:480px){
+
+    h1{
+        text-align: center;
+    }
+
+    .opcionesPosicion{
+        position: static;
+    }
+
+    .caja, .principalContenido, .mapaContenido, .contenidoDiferenciales, .video, .productos, .formulario{
+        width: auto;
+    }
+
+    .listaDiferenciales{
+        vertical-align: top;
+        position: relative;
+        top: 7.5px;
+    }
+
+}
+
